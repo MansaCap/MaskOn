@@ -1,0 +1,16 @@
+Project Plan Scaffold
+
+/maskon-project
+  /docs
+    roadmap.md        # 14-week timeline
+    pricing-model.md  # Free, Citizen, Offshore tiers
+    services.md       # Scanner, Cleaner, Vault, Notifications
+    market-analysis.md# Competitors + positioning
+  /src
+    /frontend         # Flutter/React Native app
+    /backend          # FastAPI microservices
+    /vault            # MFA + password rotation
+  /marketing
+    linkedin-teaser.md
+    medium-outline.md
+    carousel-script.md

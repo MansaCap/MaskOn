@@ -6,11 +6,37 @@ Project Plan Scaffold
     pricing-model.md  # Free, Citizen, Offshore tiers
     services.md       # Scanner, Cleaner, Vault, Notifications
     market-analysis.md# Competitors + positioning
+    feasibility.md
+    TDD.md                # Technical Design Document
+    FDD.md                # Functional Design Document
+    governance.md         # Technical Assurance Brief
   /src
     /frontend         # Flutter/React Native app
+      /mobile-app
+      /elder-ux
     /backend          # FastAPI microservices
+      /fastapi-services
+      /scrub-engine
+      /agreement-monitor
+      /network-audit
+      /chirps-engine
+        autoencoder.py    # Deep learning anomaly detection
+        isolation_forest.py # Lightweight anomaly detection
     /vault            # MFA + password rotation
+       /mfa-sync
+      /auto-rotation
+    /security
+      /audit-reports
+      /offshore-routing
+  /db
+    schema.sql            # MySQL schema
+    eer-diagram.png       # Exported EER diagram for Eraser.io
+  /scripts
+    scaffold.py           # Python scaffold script for pipeline      
   /marketing
     linkedin-teaser.md
     medium-outline.md
     carousel-script.md
+
+
+
